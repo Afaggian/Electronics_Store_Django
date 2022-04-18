@@ -1,7 +1,7 @@
 from django.urls import path,re_path
 
 from . import views
-from .views import EletronicsView
+from .views import EletronicsView, eletronics
 
 urlpatterns = [
     path('', views.index, name='index'),

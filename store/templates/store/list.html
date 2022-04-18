@@ -26,7 +26,7 @@
 <table>
     <tr class="pagination">
         {% if items.has_previus %}
-        <td><a href="?page={{ items.precius_page_number }}">&laquo;</a></td>
+            <td><a href="?page={{ items.previous_page_number }}">&laquo;</a></td>
         {% else %}
             <td class="disabled"><span>&laquo;</span></td>
         {% endif %}
